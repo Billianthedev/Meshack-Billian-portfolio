@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Navigate the personalised portfolio and open the resume print flow",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "portfolio section navigation",
+      "print or save-as-PDF resume action",
+      "personalised profile content"
+    ],
+    "description": "Verifies visitors can navigate the personalised portfolio and use its browser print action.",
+    "steps": [
+      "Open the portfolio homepage",
+      "Navigate to Projects and Contact",
+      "Activate the Save as PDF action"
+    ],
+    "expected": "The portfolio sections are reachable and the browser print dialog opens."
+  },
+  {
+    "name": "Review the cloud-focused profile and project on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "responsive mobile navigation",
+      "cloud engineering profile content",
+      "Aurelia Health System project link"
+    ],
+    "description": "Verifies the personalised portfolio remains readable and the featured project is available on a narrow screen.",
+    "steps": [
+      "Open the portfolio at a mobile viewport",
+      "Open the mobile navigation",
+      "Visit Skills and Projects"
+    ],
+    "expected": "The cloud learning areas and Aurelia Health System project are readable without horizontal overflow."
+  },
+  {
+    "name": "Use working email and GitHub contact links",
+    "viewport": "desktop",
+    "covers": [
+      "email contact action",
+      "GitHub profile and project links",
+      "no placeholder social destinations"
+    ],
+    "description": "Verifies the portfolio contact actions point to the supplied email and GitHub profile.",
+    "steps": [
+      "Open the Contact section",
+      "Inspect the email and GitHub links",
+      "Open the featured project's GitHub link"
+    ],
+    "expected": "Email opens a message to ianmesh10@gmail.com, GitHub opens Billian's profile, and the project opens its supplied repository."
+  }
+]
